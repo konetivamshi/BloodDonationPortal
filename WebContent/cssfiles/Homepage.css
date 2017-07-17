@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+}
+img{
+	margin-right:350px;
+	margin-top: 5px;
+	margin-bottom: 75px;
+}
+h3{
+  font-family: serif;
+	font-size: 10;
+	font-style: normal;
+	margin-top: -130px;
+	margin-bottom: 110px;
+	margin-right: -250px;
+}
+header{
+	background: white;
+	width: 80%;
+	padding: 30px 10;
+	text-align: center;
+	color: maroon;
+	margin-top: 0px;
+	margin-bottom: -75px;
+	padding-top: -10px;
+	padding-bottom: -30px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+nav ul{
+	background-color: maroon;
+	overflow: hidden;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	float: left;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 200px;
+	margin-right: -200px;
+}
+.active{
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+h1{
+	margin: -30px;
+	margin-right: 500px;
+	margin-top: 100px;
+	color: maroon;
+	font-size: 45px;
+}
+h6{
+	margin-right: 720px;
+	margin-bottom: 200px;
+	font-size: 20px;
+	border-bottom-width: 2px;
+	width: 25%;
+	border-bottom-style: solid;
+	padding-bottom: 3px;
+	padding-bottom-left:10px;
+	padding-right: 10px;
+  float: right;
+}
+u{
+  padding-left: 100px;
+}
+.button1{
+	 border-radius: 4px;
+	 border: none;
+	 background: #FF0000;
+	 color: white;
+	 padding: 8px 10px;
+	 text-align: center;
+   font-size: 16px;
+	 margin:20px 220px;
+	 float: left;
+	 margin-top: -180px;
+	 margin-left:250px;
+  cursor: pointer;
+}
+
+.footer {
+	border-top-width: 40px;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+	margin-top: 250px;
+	margin-bottom: -100px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+p{
+	margin-right: 550px;
+    margin-top: 0px;
+}
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+  margin-left: 700px;
+  margin-top: -55px;
+  margin-bottom: : 20px;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #800000;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #800000;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #800000;
+      border-color: #e64522;
+}
+/* YouTube button class*/
+.youtubeBtn{
+    background: #e64522;
+}
+
+.youtubeBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.youtubeBtn:hover{
+      color: #e64522;
+      background: #800000;
+      border-color: #e64522;
+}
+

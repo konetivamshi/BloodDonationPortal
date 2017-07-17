@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>Blood Donation Portal</title>
+     <link rel="stylesheet" href="cssfiles/Donate.css">
+</head>
+<body>
+ <form action="DonateServlet" method="post">
+  <header>
+    <img src="images/1.jpg" width="70px" height="90px">
+    <h3>TEXAS A&M UNIVERSITY-BLOOD DONATION PORTAL </h3></img>
+  </header>
+    <nav>
+      <ul>
+          <li> <a href=Homepage.html>Home </a></li>
+          <li> <a class="active" href=Donate.html>Donate Blood </a></li>
+          <li> <a  href=Donor.html>Find A Donor </a></li>
+          <li> <a  href=AboutUs.html>About Us </a></li>
+      </ul>
+    </nav>
+
+    
+    <div id="text1"></div>Name:<input type="text1" name="name" /></br>
+    <div id="text2"></div>Phone:<input type="text2" name="phone" /></br>
+    <div id="text3"></div>Email:<input type="text3" name="email" /></br>
+    <div id="text4">Blood Group:
+        <select name="bloodgroup">
+                <option value="Select" selected="Select">Select</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select></div></br>
+    <div id="text5">Gender:
+                <select name="gender">
+                        <option value="Select" selected="Select">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select></div></br>        
+            
+            
+              <label>Date of birth:</label>
+              <input type="date" name="dateofbirth"/></br>
+              
+ 
+            <div id="text6">Address:<input type="text6" name="address" /></div></br>
+            <div id="text7">City:<input type="text7" name="city" /></div></br>
+            <div id="text8">State:<input type="text8" name="state" /></div></br>
+            <div id="text9">ZipCode:<input type="text9" name="zipcode" /></div></br>
+            <div id="text10">Country:<input type="text10" name="country" /></div></br>
+			
+			<div id="text11">Last Donated:
+                <select name="lastdonated">
+                        <option value="Select" selected="Select">Select</option>
+                        <option value="Not yet">Not yet</option>
+                        <option value="More than 6 months">More than 6 months</option>
+                        <option value="Not yet 6 months">Not yet 6 months</option>
+                    </select></div></br>
+			
+			<div id="text12">Do you Smoke: <input type="radio" name="smoke" value="yes"> Yes
+                             <input type="radio" name="smoke" value="no"> No </div><br> 
+            <div id="text13">Do you Drink: <input type="radio" name="drink" value="yes"> Yes
+                             <input type="radio" name="drink" value="no"> No</div> 
+              
+
+            <input type="submit" value="Donate">
+			
+			
+    <div class="footer">
+      <p>For more information Contact at 361-228-1684 | Copyrights &copy;2016 LazyTeamworks. ALL RIGHTS RESERVED
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &copy;CopyRights Lazy Teamworks</p>
+
+    </div>
+    	</form>
+    </body>
+  </html>
